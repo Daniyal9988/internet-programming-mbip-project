@@ -1,0 +1,23 @@
+.report-container {
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.report-box {
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+  background-color: aquamarine;
+  width: 75vw;
+  height: 65vh;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+}

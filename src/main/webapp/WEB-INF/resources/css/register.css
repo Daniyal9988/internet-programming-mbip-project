@@ -1,0 +1,209 @@
+@charset "ISO-8859-1";
+
+.main-cotainer
+{
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.title 
+{
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+    width: 110vh;
+    top: 0;
+    left: 0;
+    background-color: #8bc34a;
+   
+   
+}
+
+.title > h1
+{
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+    text-align: center;
+}
+
+.user-type > img
+{
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+    width: 159px;
+    height: 151px;
+    align-self: center;
+    
+}
+.user-type >form
+{
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 110vh;
+    justify-content: space-around;
+    margin-top: 2vh;
+}
+
+.user-type 
+{
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+    display: flex;
+    width: 110vh;
+    justify-content: space-around;
+    margin-top: 2vh;
+
+}
+.user 
+{
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-wrapper2
+{
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+    margin-left: 5vh;
+    font-weight: bold;
+}
+
+.text-personal
+{
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+    text-align: left;
+    margin-left: 5vh;
+    font-weight: bold;
+}
+.radio
+{
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+    justify-content: space-evenly;
+    gap: 18vh;
+}
+
+.personal-details > form
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.personal-details
+{
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 110vh;
+    border-top: 0px;
+}
+
+label {
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    width: 80vh;
+}
+
+.user-type-radio{
+	display: flex;
+	justify-content: space-between;
+	width: 135%;
+}
+
+
+
+input {
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+    width: 75%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+	font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 35vh;
+    margin-bottom: 3vh;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.user, .user-type , .personal-details
+{
+    background-color: white;
+}
+
+body
+{
+    background-image: url('http://localhost:8080/Project/resources/images/apply-pic.png');  
+    background-size: cover;
+    background-position: center;
+}

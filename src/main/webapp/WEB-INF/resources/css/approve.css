@@ -1,0 +1,114 @@
+body
+{
+  background-image: url("http://localhost:8080/Project/resources/images/homepage-pic.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+div.report-container {
+  font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3vh 3vw 3vh 3vw;
+}
+
+input[type="text"]{
+	  font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+}
+
+
+.report-box {
+  font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sora", sans-serif;
+  display: flex;
+  height: 60vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid green;
+  padding: 8px;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+form input[type="submit"], button[type="submit"] {
+	color: black;
+	border: none;
+	padding: 12px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	cursor: pointer;
+	background: linear-gradient(to left, #45a049 50%, #295a2b 50%) right;
+	background-size: 200%;
+	transition: 0.2s ease-out;
+	
+}
+input[type="submit"]:hover, button[type="submit"]:hover{
+	color: white;
+	border: none;
+	padding: 12px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	background-position: left;
+}
+
+#searchInput {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 20%;
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #e8f5e9;
+  color: #333;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+#searchInput:focus {
+  border-color: #45a049; 
+}
+
+
+th {
+	background-color: #75A241;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #e0f1e3;
+}
+
+tr:nth-child(odd) {
+	background-color: #a5d6a7;
+}

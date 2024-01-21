@@ -1,0 +1,150 @@
+body {
+	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Sora', sans-serif;
+	background-image:
+		url("http://localhost:8080/Project/resources/images/login-page.png");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+}
+
+@
+keyframes slidein {from { transform:translateY(-100%);
+	
+}
+
+to {
+	transform: translateY(0%);
+}
+
+}
+.login-container {
+	animation-name: slidein;
+	animation-duration: 1s;
+	display: flex;
+	margin: 25vh;
+	border-radius: 25px;
+	border: 1px solid #000;
+	background: #fff;
+	box-shadow: 0px 5px 20px 8px rgba(0, 0, 0, 0.25);
+	padding: 20px 10px 20px 10px;
+	height: 50vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	width: 300px;
+	max-width: 100%;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+label {
+	width: 82%;
+}
+
+input[type="submit"], input[type="button"] {
+	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Sora', sans-serif;
+	padding: 10px 15px;
+	border-radius: 5px;
+	background: linear-gradient(to left, #45a049 50%, #295a2b 50%) right;
+	background-size: 200%;
+	transition: 0.5s ease-out;
+	border: none;
+}
+
+input[type="submit"] {
+	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Sora', sans-serif;
+	margin-right: 60px;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Sora', sans-serif;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 5px;
+	background-position: left;
+	border: none;
+}
+
+.login-buttons {
+	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Sora', sans-serif;
+	margin-top: 25px;
+}
+
+h2 {
+	color: #333;
+}
+
+input {
+	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Sora', sans-serif;
+	width: 100%;
+	padding: 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+button {
+	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Sora', sans-serif;
+	width: 100%;
+	padding: 12px;
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+button:hover {
+	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Sora', sans-serif;
+	background-color: #45a049;
+}
+
+.register-link {
+	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Sora', sans-serif;
+	margin-top: 15px;
+	color: #333;
+	text-decoration: none;
+	display: inline-block;
+}
